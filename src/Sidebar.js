@@ -33,10 +33,10 @@ function Sidebar() {
     <div className="sidebar">
       <div className="sidebar__header">
         <div className="sidebar__info">
-          <h2>Clever Programmer</h2>
+          <h2>React Coding</h2>
           <h3>
             <FiberManualRecordIcon />
-            Phil
+            Phil Laub
           </h3>
         </div>
         <CreateIcon />
