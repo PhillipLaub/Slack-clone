@@ -23,7 +23,16 @@ function App() {
 
               <Switch>
                 <Route exact path="/">
-                  <h1>home</h1>
+                  <div className="welcome">
+                    <div className="welcome__container">
+                      <img
+                        src="https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd.jpg"
+                        alt="slack logo"
+                      />
+                      <h1>Welcome to Laubster HQ</h1>
+                      <h4>Add a channel or join an existing room!</h4>
+                    </div>
+                  </div>
                 </Route>
                 <Route path="/room/:roomId">
                   <Chat />

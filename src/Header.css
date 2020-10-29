@@ -34,6 +34,13 @@
   background-color: transparent;
   border: none;
   min-width: 35vw;
+  color: white;
+}
+
+.header__search > input:focus {
+  outline: none;
+  border: none;
+  outline-width: 0;
 }
 
 .header__right {
